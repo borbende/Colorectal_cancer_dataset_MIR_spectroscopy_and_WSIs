@@ -12,6 +12,7 @@ notebooks
 ├── MIR_technval.ipynb
 ├── WSI_technval.ipynb
 ├── MIR_fsm_to_txt.ipynb
+├── MIR_preprocessing.ipynb
 ```
 
 - <strong>MIR_fsm_to_txt.ipynb</strong>: a function that uses the specio Python package to load .fsm files and then converts them into .txt tables and generates the spatial positions of the mid-infrared spectra, while also saving the spectral metadata to a .json file.
@@ -19,6 +20,7 @@ notebooks
 - <strong>CRC_metadata_val.ipynb</strong>: a notebook containing some basic analysis on the main metadata files.
 - <strong>WSI_technval.ipynb</strong>: the technical validation workflow of the Whole Slide Images using OpenSlide Python complete with tissue core-wise sharpness computation and circle detection.
 - <strong>MIR_technval.ipynb</strong>: the technical validation workflow of the mid-infrared spectroscopy dataset and some data analysis tools: conversion from transmittance to absorbance, filtering out background spectra, signal-to-noise ratio distributions, the presence of atmospheric effects, and baseline drift.
+- <strong>MIR_preprocessing.ipynb</strong>: the preprocessing pipeline complete with background filtering, a small PCA-based outlier detection method, baseline correction and atmospheric correction.
 
 ## Data availability
 The mentioned dataset is available in the following Zenodo repository: Borkovits, B. et al. Multimodal colorectal cancer dataset (FT-IR spectroscopy and Whole Slide Imaging). Zenodo. [10.5281/zenodo.17790337](https://doi.org/10.5281/zenodo.17790337) (2025).
